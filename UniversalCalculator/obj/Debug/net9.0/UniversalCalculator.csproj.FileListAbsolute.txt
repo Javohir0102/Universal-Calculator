@@ -1,0 +1,14 @@
+C:\Users\Javohir\UniversalCalculator\bin\Debug\net9.0\UniversalCalculator.exe
+C:\Users\Javohir\UniversalCalculator\bin\Debug\net9.0\UniversalCalculator.deps.json
+C:\Users\Javohir\UniversalCalculator\bin\Debug\net9.0\UniversalCalculator.runtimeconfig.json
+C:\Users\Javohir\UniversalCalculator\bin\Debug\net9.0\UniversalCalculator.dll
+C:\Users\Javohir\UniversalCalculator\bin\Debug\net9.0\UniversalCalculator.pdb
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\UniversalCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\UniversalCalculator.AssemblyInfoInputs.cache
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\UniversalCalculator.AssemblyInfo.cs
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\UniversalCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\UniversalCalculator.dll
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\refint\UniversalCalculator.dll
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\UniversalCalculator.pdb
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\UniversalCalculator.genruntimeconfig.cache
+C:\Users\Javohir\UniversalCalculator\obj\Debug\net9.0\ref\UniversalCalculator.dll
