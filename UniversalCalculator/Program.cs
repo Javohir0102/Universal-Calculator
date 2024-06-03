@@ -33,53 +33,28 @@ while (select == 1 || select == 2 || select == 3)
     {
         Console.WriteLine("oddiy kalkulyator loyihasiga hush kelibsiz");
         Console.WriteLine("\"2 + 2\" shu ko'rinishda son va amalni kiriting");
-        string inputNumAndOperation = Console.ReadLine();
-        string [] separators = { " ", "+", "-", "*", "/" };   
-        string [] parts = inputNumAndOperation.Split(separators, StringSplitOptions.RemoveEmptyEntries);  
-        
+        string text = Console.ReadLine();
+        var inputs = text.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+        int firstNumber = Convert.ToInt32(inputs[0]);
+        char operation = Convert.ToChar(inputs[1]);
+        int secondNumber = Convert.ToInt32(inputs[2]);
+
         try
         {
-            int firstNumber = Convert.ToInt32(parts[0]);  
-            int secondNumber = Convert.ToInt32(parts[1]);  
-            // var inputNumAndOperations = inputNumAndOperation.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-            // int firstNumber = Convert.ToInt32(inputNumAndOperations[0]);
-            // char operationChar = Convert.ToChar(inputNumAndOperations[1]); 
-            // int secondNumber = Convert.ToInt32(inputNumAndOperations[2]);
-
-
-            foreach (var operationChar in inputNumAndOperation)
+            var result = operation switch
             {
-                if (operationChar == '-')  
-                {  
-                    Console.WriteLine($"Natija:{firstNumber} - {secondNumber} = {firstNumber - secondNumber}");  
-                }  
-                else if (operationChar == '+')  
-                {  
-                    Console.WriteLine($"Natija:{firstNumber} + {secondNumber} = {firstNumber + secondNumber}");  
-                }  
-                else if (operationChar == '*')  
-                {  
-                    Console.WriteLine($"Natija:{firstNumber} * {secondNumber} = {firstNumber * secondNumber}");  
-                }  
-                else if (operationChar == '/')  
-                {  
-                    if(secondNumber != 0)
-                    {
-                        Console.WriteLine($"Natija:{firstNumber} / {secondNumber} = {firstNumber / secondNumber}");  
-                    }
-                    else
-                    {
-                        Console.WriteLine("0 ga bo'lish mumkin emas!");
-                    }
-                }                 
-                
-            }
-            
+                '+' => firstNumber + secondNumber,
+                '-' => firstNumber - secondNumber,
+                '*' => firstNumber * secondNumber,
+                '/' => firstNumber / secondNumber,
+                '%' => firstNumber % secondNumber,
+                _ => throw new ArgumentException("Xato ishora kiritilgan! ")
+            };
+            Console.WriteLine($"Natija {firstNumber} {operation} {secondNumber} = {result}");   
         }
-        catch (Exception) 
+        catch (Exception)
         {
-            
-            Console.WriteLine("faqat son va amal kiriting! ");
+            throw new("faqat son va ishora kiritilsin");
         }
 
     }
