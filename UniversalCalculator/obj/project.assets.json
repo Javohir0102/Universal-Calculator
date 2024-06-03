@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Javohir\\UniversalCalculator\\UniversalCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Javohir\\Universal-Calculator\\UniversalCalculator\\UniversalCalculator.csproj",
       "projectName": "UniversalCalculator",
-      "projectPath": "C:\\Users\\Javohir\\UniversalCalculator\\UniversalCalculator.csproj",
+      "projectPath": "C:\\Users\\Javohir\\Universal-Calculator\\UniversalCalculator\\UniversalCalculator.csproj",
       "packagesPath": "C:\\Users\\Javohir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Javohir\\UniversalCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Javohir\\Universal-Calculator\\UniversalCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Javohir\\AppData\\Roaming\\NuGet\\NuGet.Config",
